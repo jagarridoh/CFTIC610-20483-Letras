@@ -1,0 +1,13 @@
+C:\Users\juan_\Desktop\Nueva carpeta\letras\bin\Debug\netcoreapp3.1\letras.exe
+C:\Users\juan_\Desktop\Nueva carpeta\letras\bin\Debug\netcoreapp3.1\letras.deps.json
+C:\Users\juan_\Desktop\Nueva carpeta\letras\bin\Debug\netcoreapp3.1\letras.runtimeconfig.json
+C:\Users\juan_\Desktop\Nueva carpeta\letras\bin\Debug\netcoreapp3.1\letras.runtimeconfig.dev.json
+C:\Users\juan_\Desktop\Nueva carpeta\letras\bin\Debug\netcoreapp3.1\letras.dll
+C:\Users\juan_\Desktop\Nueva carpeta\letras\bin\Debug\netcoreapp3.1\letras.pdb
+C:\Users\juan_\Desktop\Nueva carpeta\letras\obj\Debug\netcoreapp3.1\letras.csprojAssemblyReference.cache
+C:\Users\juan_\Desktop\Nueva carpeta\letras\obj\Debug\netcoreapp3.1\letras.AssemblyInfoInputs.cache
+C:\Users\juan_\Desktop\Nueva carpeta\letras\obj\Debug\netcoreapp3.1\letras.AssemblyInfo.cs
+C:\Users\juan_\Desktop\Nueva carpeta\letras\obj\Debug\netcoreapp3.1\letras.csproj.CoreCompileInputs.cache
+C:\Users\juan_\Desktop\Nueva carpeta\letras\obj\Debug\netcoreapp3.1\letras.dll
+C:\Users\juan_\Desktop\Nueva carpeta\letras\obj\Debug\netcoreapp3.1\letras.pdb
+C:\Users\juan_\Desktop\Nueva carpeta\letras\obj\Debug\netcoreapp3.1\letras.genruntimeconfig.cache
