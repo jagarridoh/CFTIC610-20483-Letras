@@ -4,7 +4,7 @@
     {
         public letraN()
         {
-            Nombre = "Q";
+            Nombre = "N";
             Matriz[0] = "**    *";
             Matriz[1] = "**    *";
             Matriz[2] = "* *   *";

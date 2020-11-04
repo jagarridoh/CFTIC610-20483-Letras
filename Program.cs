@@ -19,6 +19,8 @@ namespace LetrasPOO
             letraL L = new letraL();
             L.test();
             L.juntarletras (new letraI());
+            L.juntarletras (new letraN());
+            L.juntarletras (new letraD());
             L.juntarletras (new letraG());
             L.juntarletras (new letraA());
             L.juntarletras (new letraP());
