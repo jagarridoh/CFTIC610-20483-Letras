@@ -16,21 +16,15 @@ namespace LetrasPOO
         new letraG().test();
 */
 
-        letraL L = new letraL();
-        L.test();
-        L.juntarletras (new letraI());
-        L.juntarletras (new letraG());
-        L.juntarletras (new letraA());
-        L.test();
-
-
-
-            
-          
+            letraL L = new letraL();
+            L.test();
+            L.juntarletras (new letraI());
+            L.juntarletras (new letraG());
+            L.juntarletras (new letraA());
+            L.juntarletras (new letraP());
+            L.juntarletras (new letraQ());
+            L.test();
         }
-   
-
-
      }
 
      public class Palabra : Letra
@@ -61,7 +55,7 @@ namespace LetrasPOO
 
 
 
-    public enum letraspermitidas {A , B, C , D , E , F, G , H , I ,J , K , L };
+    public enum letraspermitidas {A , B, C , D , E , F, G , H , I ,J , K , L, P, Q };
 
     public abstract class Letra 
     {

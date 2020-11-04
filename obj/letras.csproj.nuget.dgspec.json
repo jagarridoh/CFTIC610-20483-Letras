@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juan_\\Desktop\\Nueva carpeta\\letras\\letras.csproj": {}
+    "C:\\Curso\\20483\\Mod5-8\\CFTIC610-20483-Letras\\letras.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juan_\\Desktop\\Nueva carpeta\\letras\\letras.csproj": {
+    "C:\\Curso\\20483\\Mod5-8\\CFTIC610-20483-Letras\\letras.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juan_\\Desktop\\Nueva carpeta\\letras\\letras.csproj",
+        "projectUniqueName": "C:\\Curso\\20483\\Mod5-8\\CFTIC610-20483-Letras\\letras.csproj",
         "projectName": "letras",
-        "projectPath": "C:\\Users\\juan_\\Desktop\\Nueva carpeta\\letras\\letras.csproj",
-        "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juan_\\Desktop\\Nueva carpeta\\letras\\obj\\",
+        "projectPath": "C:\\Curso\\20483\\Mod5-8\\CFTIC610-20483-Letras\\letras.csproj",
+        "packagesPath": "C:\\Users\\Luis Miguel\\.nuget\\packages\\",
+        "outputPath": "C:\\Curso\\20483\\Mod5-8\\CFTIC610-20483-Letras\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\juan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Luis Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -55,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
