@@ -19,6 +19,7 @@ namespace LetrasPOO
             letraL L = new letraL();
             L.test();
             L.juntarletras (new letraI());
+            L.juntarletras (new letraM());
             L.juntarletras (new letraN());
             L.juntarletras (new letraD());
             L.juntarletras (new letraG());
@@ -57,7 +58,7 @@ namespace LetrasPOO
 
 
 
-    public enum letraspermitidas {A , B, C , D , E , F, G , H , I ,J , K , L, N, P, Q };
+    public enum letraspermitidas {A , B, C , D , E , F, G , H , I ,J , K , L, M, N, P, Q };
 
     public abstract class Letra 
     {
