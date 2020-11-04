@@ -8,6 +8,10 @@ namespace LetrasPOO
     {
         static void Main(string[] args)
         {
+            GestionLetras gl = new GestionLetrasImpl();
+            string frase = gl.LeerFraseDeTeclado();
+            gl.ImprimirFrase(frase);
+
  /*     new letraA().test();
         new letraG().test();
 */
