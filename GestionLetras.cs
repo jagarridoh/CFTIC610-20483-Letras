@@ -1,16 +1,17 @@
 using System;
-//using System.Collections.Generic;
+using System.Collections.Generic;
 //using System.Linq;
 
 namespace LetrasPOO
 {
     public abstract class GestionLetras {
         public string frase { get; private set;} = "";
-        //¡¡¡private Dictionary<char, Letra> dicLet = new Dictionary<char,Letra>();
-        private diccLetras = new Dictionary<char,Letra>();
+        //private SortedList<char, Letra> dicLet = new SortedList<char,Letra>();
+        //private diccLetras = new Dictionary<char,Letra>();
+        public Dictionary<char,Letra> diccLetras;
         public abstract string LeerFraseDeTeclado();
         public abstract void ImprimirFrase(string frase);
-        private abstract void InicializarDiccionarioDeClases();
+        protected abstract void InicializarDiccionarioDeClases();
     }
 
     public class GestionLetrasImpl : GestionLetras {
@@ -25,7 +26,7 @@ namespace LetrasPOO
             throw new NotImplementedException();
         }
 
-        private abstract void InicializarDiccionarioDeClases() {
+        protected override void InicializarDiccionarioDeClases() {
             // TODO
             throw new NotImplementedException();
         }

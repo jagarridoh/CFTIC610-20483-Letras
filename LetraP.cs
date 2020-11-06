@@ -1,8 +1,8 @@
 namespace LetrasPOO
 {
-    public sealed class letraP : Letra
+    public sealed class LetraP : Letra
     {
-        public letraP()
+        public LetraP()
         {
             base.Nombre = "P";
             base.Matriz[0] = "****** ";

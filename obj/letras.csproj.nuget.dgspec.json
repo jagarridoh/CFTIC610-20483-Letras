@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Curso\\20483\\Mod5-8\\CFTIC610-20483-Letras\\letras.csproj": {}
+    "C:\\Users\\usuario\\CFTIC\\CFTIC610-20483-Letras\\letras.csproj": {}
   },
   "projects": {
-    "C:\\Curso\\20483\\Mod5-8\\CFTIC610-20483-Letras\\letras.csproj": {
+    "C:\\Users\\usuario\\CFTIC\\CFTIC610-20483-Letras\\letras.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\20483\\Mod5-8\\CFTIC610-20483-Letras\\letras.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\CFTIC\\CFTIC610-20483-Letras\\letras.csproj",
         "projectName": "letras",
-        "projectPath": "C:\\Curso\\20483\\Mod5-8\\CFTIC610-20483-Letras\\letras.csproj",
-        "packagesPath": "C:\\Users\\Luis Miguel\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\20483\\Mod5-8\\CFTIC610-20483-Letras\\obj\\",
+        "projectPath": "C:\\Users\\usuario\\CFTIC\\CFTIC610-20483-Letras\\letras.csproj",
+        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usuario\\CFTIC\\CFTIC610-20483-Letras\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Luis Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -57,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

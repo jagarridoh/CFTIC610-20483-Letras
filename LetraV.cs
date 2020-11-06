@@ -1,8 +1,8 @@
 ﻿namespace LetrasPOO
 {
-    public sealed class letraV : Letra
+    public sealed class LetraV : Letra
     {
-        public letraV()
+        public LetraV()
         {
             Nombre = "V";
             Matriz[0] = "*     *";
