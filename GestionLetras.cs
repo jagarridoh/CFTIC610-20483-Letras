@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 //using System.Linq;
 
 namespace LetrasPOO
@@ -11,7 +12,7 @@ namespace LetrasPOO
         public Dictionary<char,Letra> diccLetras;
         public abstract string LeerFraseDeTeclado();
         public abstract void ImprimirFrase(string frase);
-        protected abstract void InicializarDiccionarioDeClases();
+        public abstract void InicializarDiccionarioDeClases();
     }
 
     public class GestionLetrasImpl : GestionLetras {
@@ -26,9 +27,15 @@ namespace LetrasPOO
             throw new NotImplementedException();
         }
 
-        protected override void InicializarDiccionarioDeClases() {
+        public override void InicializarDiccionarioDeClases() {
             // TODO
-            throw new NotImplementedException();
+            Console.WriteLine("Ini de InicializarDiccionarioDeClases");
+            var tipoLetraA = Type.GetType("LetrasPOO.Letra" + "A");
+            var constructor = tipoLetraA.GetConstructor(new Type[0]);
+            var miLetraA = (Letra) constructor.Invoke(new object[0]);
+           miLetraA.test();
+            Console.WriteLine("Fin de InicializarDiccionarioDeClases");
+            //throw new NotImplementedException();
         }
     }
 

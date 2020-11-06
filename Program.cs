@@ -8,14 +8,15 @@ namespace LetrasPOO
     {
         static void Main(string[] args)
         {
-            /* GestionLetras gl = new GestionLetrasImpl();
-             string frase = gl.LeerFraseDeTeclado();
+            GestionLetras gl = new GestionLetrasImpl();
+            gl.InicializarDiccionarioDeClases();
+            /* string frase = gl.LeerFraseDeTeclado();
              gl.ImprimirFrase(frase);
  */
             /*     new letraA().test();
                    new letraG().test();
            */
-
+/*
             LetraL L = new LetraL();
             L.test();
             L.juntarletras(new LetraI());
@@ -26,7 +27,7 @@ namespace LetrasPOO
             L.juntarletras(new LetraA());
             L.juntarletras(new LetraP());
             L.juntarletras(new LetraQ());
-            L.test();
+            L.test();*/
         }
     }
 
