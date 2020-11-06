@@ -13,6 +13,7 @@ namespace LetrasPOO
             gl.InicializarDiccionarioDeClases();
             gl.LeerFraseDeTeclado();
             gl.ImprimirFrase();
+            Console.ReadKey();
             /* string frase = gl.LeerFraseDeTeclado();
              gl.ImprimirFrase(frase);
  */
