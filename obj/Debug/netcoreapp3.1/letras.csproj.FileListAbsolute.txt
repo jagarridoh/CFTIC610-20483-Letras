@@ -11,3 +11,29 @@ C:\Users\juan_\Desktop\Nueva carpeta\letras\obj\Debug\netcoreapp3.1\letras.cspro
 C:\Users\juan_\Desktop\Nueva carpeta\letras\obj\Debug\netcoreapp3.1\letras.dll
 C:\Users\juan_\Desktop\Nueva carpeta\letras\obj\Debug\netcoreapp3.1\letras.pdb
 C:\Users\juan_\Desktop\Nueva carpeta\letras\obj\Debug\netcoreapp3.1\letras.genruntimeconfig.cache
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.csprojAssemblyReference.cache
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.AssemblyInfoInputs.cache
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.AssemblyInfo.cs
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.csproj.CoreCompileInputs.cache
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.dll
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.pdb
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.exe
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.deps.json
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.runtimeconfig.json
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.runtimeconfig.dev.json
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.dll
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.pdb
+C:\Curso\20483\Mod5-8\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.genruntimeconfig.cache
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.csprojAssemblyReference.cache
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.AssemblyInfoInputs.cache
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.AssemblyInfo.cs
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.csproj.CoreCompileInputs.cache
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.dll
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.pdb
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.exe
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.deps.json
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.runtimeconfig.json
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.runtimeconfig.dev.json
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.dll
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.pdb
+C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.genruntimeconfig.cache

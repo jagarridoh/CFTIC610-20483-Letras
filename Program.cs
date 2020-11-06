@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 
 namespace LetrasPOO
@@ -9,73 +10,75 @@ namespace LetrasPOO
         static void Main(string[] args)
         {
             GestionLetras gl = new GestionLetrasImpl();
-            string frase = gl.LeerFraseDeTeclado();
-            gl.ImprimirFrase(frase);
-
- /*     new letraA().test();
-        new letraG().test();
-*/
-
-        letraL L = new letraL();
-        L.test();
-        L.juntarletras (new letraI());
-        L.juntarletras (new letraG());
-        L.juntarletras (new letraA());
-        L.test();
-
-
-
-            
-          
+            gl.InicializarDiccionarioDeClases();
+            gl.LeerFraseDeTeclado();
+            gl.ImprimirFrase();
+            Console.ReadKey();
+            /* string frase = gl.LeerFraseDeTeclado();
+             gl.ImprimirFrase(frase);
+ */
+            /*     new letraA().test();
+                   new letraG().test();
+           */
+/*
+            LetraL L = new LetraL();
+            L.test();
+            L.juntarletras(new LetraI());
+            L.juntarletras(new LetraM());
+            L.juntarletras(new LetraN());
+            L.juntarletras(new LetraD());
+            L.juntarletras(new LetraG());
+            L.juntarletras(new LetraA());
+            L.juntarletras(new LetraP());
+            L.juntarletras(new LetraQ());
+            L.test();*/
         }
-   
+    }
 
-
-     }
-
-     public class Palabra : Letra
-     {
-        string mipalabra {get;set;}
+    public class Palabra : Letra
+    {
+        string mipalabra { get; set; }
         public Palabra()
         {
-                for (int i=0; i < limite ; i++)
+            for (int i = 0; i < limite; i++)
                 Matriz[i] = "";
         }
 
-     
 
-        public override void  test()
+
+        public override void test()
         {
-            Console.WriteLine ("una palabra no puede testearse");
+            Console.WriteLine("una palabra no puede testearse");
         }
-       
-
-     }
-  
 
 
-  
+    }
 
 
 
 
 
 
-    public enum letraspermitidas {A , B, C , D , E , F, G , H , I ,J , K , L };
 
-    public abstract class Letra 
+
+
+
+    public enum LetrasPermitidas { A, B, C, D, E, F, G, H, I, J, K, L, M, N, Ñ, O, P, Q, S, V, Z };
+
+    public abstract class Letra
     {
-        protected const int limite = 7;
-        protected string[] matriz7X7 = new string[limite] ;
-        public string Nombre {get;set;}
-        public string[]  Matriz {
-            get { return matriz7X7 ;}
-            set { matriz7X7 = value;}
-         }
-        public  virtual void pintar()
+        public const int limite = 7;
+        protected string[] matriz7X7 = new string[limite];
+        public string Nombre { get; set; }
+        public string[] Matriz
         {
-            for (int i=0; i < limite; i++ )
-            { Console.WriteLine ( Matriz [i]);}
+            get { return matriz7X7; }
+            set { matriz7X7 = value; }
+        }
+        public virtual void pintar()
+        {
+            for (int i = 0; i < limite; i++)
+            { Console.WriteLine(Matriz[i]); }
         }
         public virtual void test()
         {
@@ -87,184 +90,184 @@ namespace LetrasPOO
         public void juntarletras(Letra letra)
         {
             this.Nombre += letra.Nombre;
-            for (int i=0; i < limite ; i++)
-            { 
-                    Matriz[i] +=  letra.Matriz[i]  + " ";
-    
+            for (int i = 0; i < limite; i++)
+            {
+                Matriz[i] += letra.Matriz[i] + " ";
+
             }
         }
 
     }
 
- public sealed class letraA : Letra
+    public sealed class LetraA : Letra
     {
-        public letraA()
+        public LetraA()
         {
-            base.Nombre ="A";
-            base.Matriz [0] = "*******";
-            base.Matriz [1] = "*     *";
-            base.Matriz [2] = "*     *";
-            base.Matriz [3] = "*******";
-            base.Matriz [4] = "*     *";
-            base.Matriz [5] = "*     *";
-            base.Matriz [6] = "*     *";
+            base.Nombre = "A";
+            base.Matriz[0] = "*******";
+            base.Matriz[1] = "*     *";
+            base.Matriz[2] = "*     *";
+            base.Matriz[3] = "*******";
+            base.Matriz[4] = "*     *";
+            base.Matriz[5] = "*     *";
+            base.Matriz[6] = "*     *";
         }
-     }
- public sealed class letraB : Letra
+    }
+    /*public sealed class letraB : Letra
+       {
+           public letraB()
+           {
+               base.Nombre ="B";
+               base.Matriz [0] = "*******";
+               base.Matriz [1] = "*     *";
+               base.Matriz [2] = "*     *";
+               base.Matriz [3] = "*******";
+               base.Matriz [4] = "*     *";
+               base.Matriz [5] = "*     *";
+               base.Matriz [6] = "*******";
+           }
+        }*/
+    /*public sealed class letraC : Letra
+       {
+           public letraC()
+           {
+               base.Nombre ="C";
+               base.Matriz [0] = "*******";
+               base.Matriz [1] = "*      ";
+               base.Matriz [2] = "*      ";
+               base.Matriz [3] = "*      ";
+               base.Matriz [4] = "*      ";
+               base.Matriz [5] = "*      ";
+               base.Matriz [6] = "*******";
+           }
+
+       }*/
+    /*public sealed class letraD : Letra
+       {
+           public letraD()
+           {
+               base.Nombre ="D";
+               base.Matriz [0] = "*******";
+               base.Matriz [1] = "*     *";
+               base.Matriz [2] = "*     *";
+               base.Matriz [3] = "*     *";
+               base.Matriz [4] = "*     *";
+               base.Matriz [5] = "*     *";
+               base.Matriz [6] = "*******";
+           }
+        }*/
+    public sealed class LetraE : Letra
     {
-        public letraB()
+        public LetraE()
         {
-            base.Nombre ="B";
-            base.Matriz [0] = "*******";
-            base.Matriz [1] = "*     *";
-            base.Matriz [2] = "*     *";
-            base.Matriz [3] = "*******";
-            base.Matriz [4] = "*     *";
-            base.Matriz [5] = "*     *";
-            base.Matriz [6] = "*******";
+            base.Nombre = "E";
+            base.Matriz[0] = "*******";
+            base.Matriz[1] = "*      ";
+            base.Matriz[2] = "*      ";
+            base.Matriz[3] = "*******";
+            base.Matriz[4] = "*      ";
+            base.Matriz[5] = "*      ";
+            base.Matriz[6] = "*******";
         }
-     }
- public sealed class letraC : Letra
+    }
+    public sealed class LetraF : Letra
     {
-        public letraC()
+        public LetraF()
         {
-            base.Nombre ="C";
-            base.Matriz [0] = "*******";
-            base.Matriz [1] = "*      ";
-            base.Matriz [2] = "*      ";
-            base.Matriz [3] = "*      ";
-            base.Matriz [4] = "*      ";
-            base.Matriz [5] = "*      ";
-            base.Matriz [6] = "*******";
+            base.Nombre = "F";
+            base.Matriz[0] = "*******";
+            base.Matriz[1] = "*      ";
+            base.Matriz[2] = "*      ";
+            base.Matriz[3] = "****   ";
+            base.Matriz[4] = "*      ";
+            base.Matriz[5] = "*      ";
+            base.Matriz[6] = "*      ";
         }
 
     }
- public sealed class letraD : Letra
+    public sealed class LetraG : Letra
     {
-        public letraD()
+        public LetraG()
         {
-            base.Nombre ="D";
-            base.Matriz [0] = "*******";
-            base.Matriz [1] = "*     *";
-            base.Matriz [2] = "*     *";
-            base.Matriz [3] = "*     *";
-            base.Matriz [4] = "*     *";
-            base.Matriz [5] = "*     *";
-            base.Matriz [6] = "*******";
+            base.Nombre = "G";
+            base.Matriz[0] = "*******";
+            base.Matriz[1] = "*      ";
+            base.Matriz[2] = "*      ";
+            base.Matriz[3] = "*  ****";
+            base.Matriz[4] = "*     *";
+            base.Matriz[5] = "*     *";
+            base.Matriz[6] = "*******";
         }
-     }
- public sealed class letraE : Letra
+    }
+    public sealed class LetraH : Letra
     {
-        public letraE()
+        public LetraH()
         {
-            base.Nombre ="E";
-            base.Matriz [0] = "*******";
-            base.Matriz [1] = "*      ";
-            base.Matriz [2] = "*      ";
-            base.Matriz [3] = "*******";
-            base.Matriz [4] = "*      ";
-            base.Matriz [5] = "*      ";
-            base.Matriz [6] = "*******";
+            base.Nombre = "H";
+            base.Matriz[0] = "*     *";
+            base.Matriz[1] = "*     *";
+            base.Matriz[2] = "*     *";
+            base.Matriz[3] = "*******";
+            base.Matriz[4] = "*     *";
+            base.Matriz[5] = "*     *";
+            base.Matriz[6] = "*     *";
         }
-     }
- public sealed class letraF : Letra
+    }
+    public sealed class LetraI : Letra
     {
-        public letraF()
+        public LetraI()
         {
-            base.Nombre ="F";
-            base.Matriz [0] = "*******";
-            base.Matriz [1] = "*      ";
-            base.Matriz [2] = "*      ";
-            base.Matriz [3] = "****   ";
-            base.Matriz [4] = "*      ";
-            base.Matriz [5] = "*      ";
-            base.Matriz [6] = "*      ";
+            base.Nombre = "I";
+            base.Matriz[0] = "*******";
+            base.Matriz[1] = "   *   ";
+            base.Matriz[2] = "   *   ";
+            base.Matriz[3] = "   *   ";
+            base.Matriz[4] = "   *   ";
+            base.Matriz[5] = "   *   ";
+            base.Matriz[6] = "*******";
         }
 
     }
- public sealed class letraG : Letra
+    public sealed class LetraJ : Letra
     {
-        public letraG()
+        public LetraJ()
         {
-            base.Nombre ="G";
-            base.Matriz [0] = "*******";
-            base.Matriz [1] = "*      ";
-            base.Matriz [2] = "*      ";
-            base.Matriz [3] = "*  ****";
-            base.Matriz [4] = "*     *";
-            base.Matriz [5] = "*     *";
-            base.Matriz [6] = "*******";
+            base.Nombre = "J";
+            base.Matriz[0] = "*******";
+            base.Matriz[1] = "    * ";
+            base.Matriz[2] = "    * ";
+            base.Matriz[3] = "    * ";
+            base.Matriz[4] = "*   * ";
+            base.Matriz[5] = "*   * ";
+            base.Matriz[6] = "***** ";
         }
-     }
- public sealed class letraH : Letra
-    {
-        public letraH()
-        {
-            base.Nombre ="H";
-            base.Matriz [0] = "*     *";
-            base.Matriz [1] = "*     *";
-            base.Matriz [2] = "*     *";
-            base.Matriz [3] = "*******";
-            base.Matriz [4] = "*     *";
-            base.Matriz [5] = "*     *";
-            base.Matriz [6] = "*     *";
-        }
-     }
- public sealed class letraI : Letra
-    {
-        public letraI()
-        {
-            base.Nombre ="I";
-            base.Matriz [0] = "*******";
-            base.Matriz [1] = "   *   ";
-            base.Matriz [2] = "   *   ";
-            base.Matriz [3] = "   *   ";
-            base.Matriz [4] = "   *   ";
-            base.Matriz [5] = "   *   ";
-            base.Matriz [6] = "*******";
-        }
-
     }
- public sealed class letraJ : Letra
+    public sealed class LetraK : Letra
     {
-        public letraJ()
+        public LetraK()
         {
-            base.Nombre ="J";
-            base.Matriz [0] = "*******";
-            base.Matriz [1] = "    * ";
-            base.Matriz [2] = "    * ";
-            base.Matriz [3] = "    * ";
-            base.Matriz [4] = "*   * ";
-            base.Matriz [5] = "*   * ";
-            base.Matriz [6] = "***** ";
+            base.Nombre = "K";
+            base.Matriz[0] = "*    **";
+            base.Matriz[1] = "*  **  ";
+            base.Matriz[2] = "* **   ";
+            base.Matriz[3] = "**     ";
+            base.Matriz[4] = "* **   ";
+            base.Matriz[5] = "*  **  ";
+            base.Matriz[6] = "*    **";
         }
-     }
- public sealed class letraK : Letra
+    }
+    public sealed class LetraL : Letra
     {
-        public letraK()
+        public LetraL()
         {
-            base.Nombre ="K";
-            base.Matriz [0] = "*    **";
-            base.Matriz [1] = "*  **  ";
-            base.Matriz [2] = "* **   ";
-            base.Matriz [3] = "**     ";
-            base.Matriz [4] = "* **   ";
-            base.Matriz [5] = "*  **  ";
-            base.Matriz [6] = "*    **";
-        }
-     }
- public sealed class letraL : Letra
-    {
-        public letraL()
-        {
-            base.Nombre ="L";
-            base.Matriz [0] = "*      ";
-            base.Matriz [1] = "*      ";
-            base.Matriz [2] = "*      ";
-            base.Matriz [3] = "*      ";
-            base.Matriz [4] = "*      ";
-            base.Matriz [5] = "*      ";
-            base.Matriz [6] = "*******";
+            base.Nombre = "L";
+            base.Matriz[0] = "*      ";
+            base.Matriz[1] = "*      ";
+            base.Matriz[2] = "*      ";
+            base.Matriz[3] = "*      ";
+            base.Matriz[4] = "*      ";
+            base.Matriz[5] = "*      ";
+            base.Matriz[6] = "*******";
         }
 
     }
