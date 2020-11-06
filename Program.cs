@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 
 namespace LetrasPOO
@@ -10,6 +11,8 @@ namespace LetrasPOO
         {
             GestionLetras gl = new GestionLetrasImpl();
             gl.InicializarDiccionarioDeClases();
+            gl.LeerFraseDeTeclado();
+            gl.ImprimirFrase();
             /* string frase = gl.LeerFraseDeTeclado();
              gl.ImprimirFrase(frase);
  */
@@ -63,7 +66,7 @@ namespace LetrasPOO
 
     public abstract class Letra
     {
-        protected const int limite = 7;
+        public const int limite = 7;
         protected string[] matriz7X7 = new string[limite];
         public string Nombre { get; set; }
         public string[] Matriz
