@@ -58,7 +58,7 @@ namespace LetrasPOO
 
 
 
-    public enum letraspermitidas {A , B, C , D , E , F, G , H , I ,J , K , L, M, N, P, Q };
+    public enum LetrasPermitidas {A , B, C , D , E , F, G , H , I ,J , K , L, M, N, Ñ, O, P, Q, S, V, Z };
 
     public abstract class Letra 
     {
@@ -93,7 +93,7 @@ namespace LetrasPOO
 
     }
 
- public sealed class letraA : Letra
+ public sealed class LetraA : Letra
     {
         public letraA()
         {
@@ -107,7 +107,7 @@ namespace LetrasPOO
             base.Matriz [6] = "*     *";
         }
      }
- public sealed class letraB : Letra
+ /*public sealed class letraB : Letra
     {
         public letraB()
         {
@@ -120,8 +120,8 @@ namespace LetrasPOO
             base.Matriz [5] = "*     *";
             base.Matriz [6] = "*******";
         }
-     }
- public sealed class letraC : Letra
+     }*/
+ /*public sealed class letraC : Letra
     {
         public letraC()
         {
@@ -135,8 +135,8 @@ namespace LetrasPOO
             base.Matriz [6] = "*******";
         }
 
-    }
- public sealed class letraD : Letra
+    }*/
+ /*public sealed class letraD : Letra
     {
         public letraD()
         {
@@ -149,10 +149,10 @@ namespace LetrasPOO
             base.Matriz [5] = "*     *";
             base.Matriz [6] = "*******";
         }
-     }
- public sealed class letraE : Letra
+     }*/
+ public sealed class LetraE : Letra
     {
-        public letraE()
+        public LetraE()
         {
             base.Nombre ="E";
             base.Matriz [0] = "*******";
@@ -164,7 +164,7 @@ namespace LetrasPOO
             base.Matriz [6] = "*******";
         }
      }
- public sealed class letraF : Letra
+ public sealed class LetraF : Letra
     {
         public letraF()
         {
