@@ -4,9 +4,9 @@ using System.Linq;
 
 namespace LetrasPOO
 {
-    public sealed class letraF : Letra
+    public sealed class LetraF : Letra
     {
-        public letraF()
+        public LetraF()
         {
             base.Nombre ="F";
             base.Matriz [0] = "*******";
