@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usuario\\CFTIC\\CFTIC610-20483-Letras\\letras.csproj": {}
+    "C:\\20483C\\CSharp-Programming\\jagarridoh\\CFTIC610-20483-Letras\\letras.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuario\\CFTIC\\CFTIC610-20483-Letras\\letras.csproj": {
+    "C:\\20483C\\CSharp-Programming\\jagarridoh\\CFTIC610-20483-Letras\\letras.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\CFTIC\\CFTIC610-20483-Letras\\letras.csproj",
+        "projectUniqueName": "C:\\20483C\\CSharp-Programming\\jagarridoh\\CFTIC610-20483-Letras\\letras.csproj",
         "projectName": "letras",
-        "projectPath": "C:\\Users\\usuario\\CFTIC\\CFTIC610-20483-Letras\\letras.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\CFTIC\\CFTIC610-20483-Letras\\obj\\",
+        "projectPath": "C:\\20483C\\CSharp-Programming\\jagarridoh\\CFTIC610-20483-Letras\\letras.csproj",
+        "packagesPath": "C:\\Users\\jfetf\\.nuget\\packages\\",
+        "outputPath": "C:\\20483C\\CSharp-Programming\\jagarridoh\\CFTIC610-20483-Letras\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jfetf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
