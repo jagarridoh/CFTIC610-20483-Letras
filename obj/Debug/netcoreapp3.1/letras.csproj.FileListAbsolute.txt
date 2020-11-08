@@ -37,3 +37,9 @@ C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.runt
 C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.dll
 C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\bin\Debug\netcoreapp3.1\letras.pdb
 C:\Users\usuario\CFTIC\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.genruntimeconfig.cache
+C:\20483C\CSharp-Programming\jagarridoh\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.csprojAssemblyReference.cache
+C:\20483C\CSharp-Programming\jagarridoh\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.AssemblyInfoInputs.cache
+C:\20483C\CSharp-Programming\jagarridoh\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.AssemblyInfo.cs
+C:\20483C\CSharp-Programming\jagarridoh\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.csproj.CoreCompileInputs.cache
+C:\20483C\CSharp-Programming\jagarridoh\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.dll
+C:\20483C\CSharp-Programming\jagarridoh\CFTIC610-20483-Letras\obj\Debug\netcoreapp3.1\letras.pdb

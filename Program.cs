@@ -242,7 +242,8 @@ namespace LetrasPOO
             base.Matriz[6] = "***** ";
         }
     }
-    public sealed class LetraK : Letra
+
+    /*public sealed class LetraK : Letra
     {
         public LetraK()
         {
@@ -255,7 +256,8 @@ namespace LetrasPOO
             base.Matriz[5] = "*  **  ";
             base.Matriz[6] = "*    **";
         }
-    }
+    }*/
+
     public sealed class LetraL : Letra
     {
         public LetraL()

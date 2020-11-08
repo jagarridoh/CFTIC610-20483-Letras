@@ -4,7 +4,7 @@ namespace LetrasPOO
     {
         public LetraW()
         {
-            Nombre = "V";
+            Nombre = "W";
             Matriz[0] = "*   *   *";
             Matriz[1] = "*   *   *";
             Matriz[2] = "*   *   *";
