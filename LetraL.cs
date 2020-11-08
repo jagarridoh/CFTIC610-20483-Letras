@@ -1,6 +1,6 @@
 ﻿namespace LetrasPOO
 {
-    public sealed class LetraT : Letra
+    public sealed class LetraL : Letra
     {
         public LetraL()
         {
