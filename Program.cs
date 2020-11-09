@@ -63,7 +63,7 @@ namespace LetrasPOO
 
 
 
-    public enum LetrasPermitidas { A, B, C, D, E, F, G, H, I, J, K, L, M, N, Ñ, O, P, Q, S, V, Z };
+    public enum LetrasPermitidas { A, B, C, D, E, F, G, H, I, J, K, L, M, N, Ñ, O, P, Q, S, U, V, X, Z };
 
     public abstract class Letra
     {

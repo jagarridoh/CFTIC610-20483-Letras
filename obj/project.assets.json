@@ -8,30 +8,26 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\jfetf\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\uttl28\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\20483C\\CSharp-Programming\\jagarridoh\\CFTIC610-20483-Letras\\letras.csproj",
+      "projectUniqueName": "C:\\Users\\uttl28\\Movistar Cloud\\20-610\\20483C-Programming-in-C-Sharp\\Ejemplos\\CFTIC610-20483-Letras-main\\jagarridoh\\CFTIC610-20483-Letras\\letras.csproj",
       "projectName": "letras",
-      "projectPath": "C:\\20483C\\CSharp-Programming\\jagarridoh\\CFTIC610-20483-Letras\\letras.csproj",
-      "packagesPath": "C:\\Users\\jfetf\\.nuget\\packages\\",
-      "outputPath": "C:\\20483C\\CSharp-Programming\\jagarridoh\\CFTIC610-20483-Letras\\obj\\",
+      "projectPath": "C:\\Users\\uttl28\\Movistar Cloud\\20-610\\20483C-Programming-in-C-Sharp\\Ejemplos\\CFTIC610-20483-Letras-main\\jagarridoh\\CFTIC610-20483-Letras\\letras.csproj",
+      "packagesPath": "C:\\Users\\uttl28\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\uttl28\\Movistar Cloud\\20-610\\20483C-Programming-in-C-Sharp\\Ejemplos\\CFTIC610-20483-Letras-main\\jagarridoh\\CFTIC610-20483-Letras\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jfetf\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\uttl28\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
